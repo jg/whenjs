@@ -6,12 +6,11 @@ Install Typescript compiler:
 
 Install node package manager:
         sudo apt-get install npm
-        
+
 Install project dependencies:
         npm install
-        
 
-        
+
 Compile Typescript
 -------------------
 
@@ -22,6 +21,12 @@ Typescript Reference
 ---------------------
 
 - http://www.typescriptlang.org/Content/TypeScript%20Language%20Specification.pdf
+
+
+When.js
+-------
+
+- [Api Docs](https://github.com/cujojs/when/blob/master/docs/api.md#when)
 
 
 Running Tests
