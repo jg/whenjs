@@ -1,7 +1,8 @@
 {
   "repository": {},
   "dependencies": {
-    "when": "^3.7.2"
+    "when": "^3.7.2",
+    "typescript": "^v1.1.0"
   },
   "devDependencies": {
     "grunt": "^0.4.5",

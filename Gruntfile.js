@@ -9,9 +9,8 @@ module.exports = function (grunt) {
                 outDir: 'js',
                 reference: 'ts/references.ts',
                 options: {
-                    module: 'commonjs',
                     target: 'es5',
-                    compiler: '/usr/bin/tsc'
+                    compiler: 'node_modules/typescript/bin/tsc'
                 }
             }
         },
