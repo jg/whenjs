@@ -7,3 +7,7 @@
 *.csproj.user
 *.js.map
 /tsfoo/src/*.js
+js/*
+node_modules
+.gitignore
+.tscache/
