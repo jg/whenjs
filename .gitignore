@@ -11,3 +11,4 @@ js/*
 node_modules
 .gitignore
 .tscache/
+ts/references.ts
