@@ -1,0 +1,9 @@
+/tsfoo/bin
+/tsfoo/obj
+/tsfoo/compiled
+/tsfoo/dist
+/tsfoo/node_modules
+*.suo
+*.csproj.user
+*.js.map
+/tsfoo/src/*.js

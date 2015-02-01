@@ -1,0 +1,129 @@
+body {
+    min-height: 1000px;
+    padding-top: 70px;
+}
+
+form .form-actions {
+    background: #f8f8f8;
+    border: 1px solid #e7e7e7;
+    text-align: right;
+    padding: 20px 10px;
+}
+
+form .label-align {
+    padding-top: 7px;
+}
+
+.subpage h3 {
+    margin: 0 0 24px 0;
+}
+
+#demo-container {
+    margin-top: 30px;
+    padding: 10px;
+    border: 1px solid #e7e7e7;
+    visibility: hidden;
+    position: relative;
+}
+
+#demo-container .step-button-container {
+    float: right;
+    width: 120px;
+}
+#demo-container .step-button {
+    position: absolute;
+    top: 10px;
+}
+#demo-container .step-button.fixed {
+    position: fixed;
+    top: 60px;
+}
+
+.demo-table th, .demo-table td {
+    min-width: 38px;
+    min-height: 30px;
+    text-align: center;
+}
+.demo-table td {
+    border: 1px solid #e7e7e7;
+}
+
+.demo-table td .value {
+    display: block;
+}
+.demo-table td .value.max {
+    font-weight: bold;
+}
+.demo-table .cell-container {
+    position: relative;
+    display: block;
+    padding: 6px 10px;
+    min-width: 38px;
+}
+.demo-table .glyphicon {
+    position: absolute;
+}
+.demo-table .down {
+    top: auto;
+    top: -8px;
+    left: 50%;
+    margin-left: -6px;
+}
+.demo-table .right {
+    left: -8px;
+    top: 50%;
+    margin-top: -7px;
+}
+.demo-table .down-right {
+    left: -8px;
+    top: -8px;
+    behavior:url(-ms-transform.htc);
+    /* Firefox */
+    -moz-transform:rotate(45deg);
+    /* Safari and Chrome */
+    -webkit-transform:rotate(45deg);
+    /* Opera */
+    -o-transform:rotate(45deg);
+    /* IE9 */
+    -ms-transform:rotate(45deg);
+    /* IE6,IE7 */
+    filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.7071067811865476, M12=-0.7071067811865475, M21=0.7071067811865475, M22=0.7071067811865476);
+    /* IE8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(SizingMethod='auto expand', M11=0.7071067811865476, M12=-0.7071067811865475, M21=0.7071067811865475, M22=0.7071067811865476)"; 
+}
+
+.result-container {
+     font-family: monospace;
+}
+
+.result-container, .calc-container {
+    margin-top: 30px;
+}
+
+#qunit {
+    margin-bottom: 20px;
+}
+.demo-table .highlight {
+    background-color: #5CB85C;
+}
+body {
+    padding: 20px 80px 0 80px
+}
+#demo {
+    font-size: 15px;
+    width: 90%;
+    border: 1px solid black;
+    height: 400px;
+    overflow: scroll;
+    margin: 0 auto;
+    padding: 40px;
+    position: relative;
+}
+#demo pre {
+    font-size: 16px;
+}
+#demo > div.step {
+    margin-top: 20px;
+    border-bottom: 2px dashed black;
+    padding-bottom: 20px;
+}
